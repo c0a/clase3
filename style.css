@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+* {
+	font-family: 'Slabo 27px', serif;
+}
+
+header ul li, header ul, header figure {
+	display: inline-block;
+	vertical-align: top;
+}
+
+a:link   {   
+ text-decoration:none;   
+}   
+
+header ul li a.boton {
+	color: white;
+	background-color: orange;
+	border-radius: 5px;
+}
+
+header ul li a.gris {
+	color: grey;
+}
+
+header ul li a {
+	margin-left: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+main section article div.caja1 {
+	width: 150px;
+	height: 250px;
+	background-color: grey;
+}
